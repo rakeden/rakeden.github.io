@@ -98,6 +98,63 @@ textarea {
 
 
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas#bg-noise {
+  background: #333;
+  position: fixed;
+  width: 115vw;
+  height: 115vh;
+  top: -5vh;
+  left: -10vw;
+
+  z-index: -2
+}
+
+canvas#text-mask {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 50vh
+
+  z-index: -1;
+
+  transform: scale(0.97);
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 50%;
+
+    transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+
+header h1 {
+    color: #FFF;
+
+    font-size: 10vw;
+    line-height: 150%;  
+    text-align: center;
+    margin: 0;
+}
+
+header h2 {
+    color: #FFF;
+
+    /*font-size: 10vw;*/
+    /*line-height: 150%;  */
+    text-align: center;
+    margin: 0;
+}
+
 
 
 
